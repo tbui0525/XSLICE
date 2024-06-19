@@ -7,7 +7,7 @@ import xarray as xr
 
 
 def download_data():
-    years = np.arange(1980, 2023)
+    years = np.arange(1980, 2024)
     # MAKING FOLDER
     folder = Path("GODAS data")
     folder.mkdir(exist_ok=True)
